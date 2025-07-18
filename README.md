@@ -1,6 +1,6 @@
 # TaskFlow - Gestor de Tareas  
 
-![Logo o captura de pantalla](./assets/images/Logo_Taskflow.png)  
+<img src="./assets/images/Logo_Taskflow.png" alt="Logo TaskFlow" width="80"/>
 
 ## 🚀 **Descripción**  
 Aplicación web para gestionar tareas con filtros por categoría, prioridad y estado. Desarrollada con HTML, CSS y JavaScript.  
@@ -32,4 +32,4 @@ Aplicación web para gestionar tareas con filtros por categoría, prioridad y es
 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Abre un issue o envía un pull request.# taskflow
 
-<img src="./assets/images/Logo_Taskflow.png" alt="Logo TaskFlow" width="80"/>
+
