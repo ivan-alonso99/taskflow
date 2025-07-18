@@ -31,3 +31,5 @@ Aplicación web para gestionar tareas con filtros por categoría, prioridad y es
 
 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Abre un issue o envía un pull request.# taskflow
+
+<img src="./assets/images/Logo_Taskflow.png" alt="Logo TaskFlow" width="200"/>
