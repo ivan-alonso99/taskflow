@@ -22,8 +22,11 @@ Aplicación web para gestionar tareas con filtros por categoría, prioridad y es
 
 📸 Capturas de pantalla
 
-Vista principal	Filtros
-./assets/images/screenshot1.jpeg	./assets/images/screenshot2.jpeg
+## 📸 Capturas de pantalla
+
+| Vista Principal | Filtros |
+|-----------------|---------|
+| ![Vista Principal](https://github.com/ivan-alonso99/taskflow/blob/main/assets/images/screenshot1.jpeg?raw=true) | ![Filtros](https://github.com/ivan-alonso99/taskflow/blob/main/assets/images/screenshot2.jpeg?raw=true) |
 
 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Abre un issue o envía un pull request.# taskflow
