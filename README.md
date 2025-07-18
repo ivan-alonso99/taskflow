@@ -26,6 +26,7 @@ Aplicación web para gestionar tareas con filtros por categoría, prioridad y es
 
 | Vista Principal | Filtros |
 |-----------------|---------|
+| ![Vista Principal](https://github.com/ivan-alonso99/taskflow/blob/main/assets/images/screenshot4.jpeg?raw=true) | ![Filtros](https://github.com/ivan-alonso99/taskflow/blob/main/assets/images/screenshot3.jpeg?raw=true) |
 | ![Vista Principal](https://github.com/ivan-alonso99/taskflow/blob/main/assets/images/screenshot1.jpeg?raw=true) | ![Filtros](https://github.com/ivan-alonso99/taskflow/blob/main/assets/images/screenshot2.jpeg?raw=true) |
 
 🤝 Contribuciones
