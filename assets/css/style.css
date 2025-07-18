@@ -1,0 +1,459 @@
+body{
+    display: block;
+    margin: 0px;
+}
+
+#contenido1 { 
+width: 1000px; 
+margin: 0 auto; 
+background-color: rgb(234, 240, 210);
+
+}
+
+.tabla {
+display: grid; 
+place-items: center;
+padding: 15px;
+font-family: sans-serif;
+height: auto;
+}
+
+
+.tabla table{
+  padding: 7px;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 5px;
+
+}
+td:hover {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.4; 
+}
+
+.tabla th{
+  height: 50px;
+  width: 300px;
+  background-color: white;
+}
+
+.tabla #estado {
+  width: 50px;
+}
+
+.tabla #ButtonEstado {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.tabla #editarButton{
+ width: 0px;
+ height: 0px;
+ padding: 0px;
+ margin: 0px;
+}
+.tabla #editarButton img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.tabla #editar {
+  width: 50px;
+
+}
+
+.tabla #eliminarButton{
+ width: 0px;
+ height: 0px;
+ padding: 0px;
+ margin: 0px;
+}
+.tabla #eliminarButton img {
+  width: 30px;
+  height: 30px;
+  margin-left: 13px;
+}
+
+.tabla #eliminar{
+  width: 10px;
+}
+
+.tabla #prioridad {
+  width: 50px;
+}
+
+.tabla #fecha{
+  width: 100px;
+}
+#box{
+  color: white;
+  align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: .5rem;
+    padding: 0px;
+    background-color: #07102d;
+    z-index: inherit;
+    
+}
+
+
+.nav {
+  text-align: center; /* Centra la lista horizontalmente */
+}
+
+.nav li :hover{
+  color: #a3f306;
+  border-top-right-radius: 1em 5em;
+  margin: 3px;
+}
+
+.nav ul {
+  list-style: none; /* Elimina los marcadores de la lista */
+  padding: 0; /* Elimina el relleno predeterminado */
+  margin: 0; /* Elimina el margen predeterminado */
+}
+
+.nav ul li {  
+  display: inline-block; /* Muestra los elementos de la lista horizontalmente */
+  margin-right: 1px; /* Añade un espacio entre los elementos */
+}
+
+.nav ul li a {
+  display: block; /* Asegura que el enlace ocupe todo el espacio del `li` */
+  padding: 0px 15px;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: rgb(255, 255, 255); /* Color del texto del enlace */
+  font-family: sans-serif;
+}
+#buscador {
+  margin-left: 5px;
+    margin-right: 8px;
+}
+ 
+.logo{
+width: 70px;
+height: 60px;
+margin-left: 10px;
+}
+
+.lista_tareas{
+height: 70px;
+width: auto;
+background-image: url('../images/background.png');
+background-position: right, left;
+background-size: 750px;
+box-shadow: 10px 5px 5px black;
+}
+
+#lista_tareas h2{
+color: white;
+font-family: sans-serif;
+margin: auto;
+padding: 17px 350px;
+
+}
+
+.tabla #ButtonAdd{
+  width: 100px;
+  height: 30px;
+  background-color: #07102d;
+  color: white;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.tabla #ButtonPDF{
+  width: 100px;
+  height: 30px;
+  background-color: #07102d;
+  color: white;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+.tabla #ButtonAdd:hover{
+  width: 103px;
+  height: 33px;
+  background-color: #a3f306;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.tabla #ButtonPDF:hover{
+  width: 105px;
+  height: 35px;
+  background-color: #a3f306;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+.olas{
+  margin-bottom: -6px;
+  
+}
+
+.olas img{
+  width: 350px;
+  height: 50px;
+  
+}
+
+.olasEnd img{
+  width: 350px;
+  height: 50px;
+  float: right;
+}
+
+.dashboard{
+  background-color: hsl(226, 73%, 10%);
+}
+
+.dashboard h1{
+text-align: center;
+color: white;
+font-family: sans-serif;
+margin: auto;
+font-size: 50px;
+padding: 50px 450px;
+
+}
+
+.dashboard #cantidadTareas ,#tareas_pendientes h2{
+text-align: center;
+color:#a3f306;
+font-family: sans-serif;
+margin: auto;
+}
+
+.dashboard #tareas_ProxVencer h2{
+text-align: center;
+color:#a3f306;
+font-family: sans-serif;
+margin: auto;
+}
+
+.dashboard #tareas_vencidas h2{
+text-align: center;
+color:#a3f306;
+font-family: sans-serif;
+margin: auto;
+}
+
+.dashboard p{
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+
+/*      AddList       */
+
+
+#formulario{
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#formulario  input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0 15px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+}
+
+#formulario  select {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0 15px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+}
+
+#formulario label {
+font-family: sans-serif;
+}
+
+#formulario button {
+        background-color: #07102d;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: sans-serif;
+    }
+#formulario button:hover {
+        background-color: #a3f306;
+    }
+    
+    /*////////////////////// EndFormulario ////////////////////////////////*/
+
+    /*/////////////////////    LOGIN       ////////////////////////////////*/
+
+#login{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login h1{
+  font-family: sans-serif;
+}
+
+.login .form-conteiner{
+      border: 1px solid hsla(0, 0%, 65%, 0.158);
+    box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    z-index: 99;
+    padding: 2rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.login .form-conteiner label{
+  font-family: sans-serif;
+}
+
+.login .form-conteiner input{
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login .form-conteiner button{
+background-color: #07102d;
+    color: #a3f306;
+    display: block;
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.1s ease-in-out;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+}
+
+.login .form-conteiner button:hover{
+      box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
+.login .form-conteiner a{
+ text-decoration: none;
+ font-family: sans-serif;
+ font-size: 20px;
+ margin-left: 5%;
+ color:gray;
+}
+
+/*///////////////////////  inicio ////////////////////////////////////*/
+
+#conteiner{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#conteiner a{
+ text-decoration: none;
+}
+
+#conteiner #logo{
+ height: 100px;
+ width: 200px;
+}
+
+#conteiner button{
+ background-color: #07102d;
+    color: #a3f306;
+    display: block;
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.1s ease-in-out;
+    border: none;
+
+}
+
+#conteiner button:hover{
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
+
+#background #back{
+  height: 739px;
+  width: 1350px;
+}
+
+
+/*//////////// NOTIFICATIONS ///////////////*/
+/* Notificaciones estilo minimalista */
+.notificacion {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    background: #ff4444;
+    color: white;
+    border-radius: 5px;
+    display: none;
+    z-index: 1000;
+    max-width: 300px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    animation: fadeIn 0.3s ease-out;
+}
+
+.notificacion.success {
+    background: #00C851;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
